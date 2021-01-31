@@ -1,3 +1,4 @@
 tasks:
   - init: npm install
     command: npm run start
+  - command: gp await-port 9005 && gp preview $(gp url 9005)/app.html
